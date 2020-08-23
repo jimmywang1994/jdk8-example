@@ -9,7 +9,7 @@ public class LambdaTest02 {
     public static void main(String[] args) {
         //四大函数式接口
         //消费型接口
-        Consumer<String> consumer = a -> System.out.println(a);
+        Consumer<String> consumer = System.out::println;
         consumer.accept("hello wangwei");
 
         //供给型接口

@@ -14,7 +14,7 @@ public class LambdaTest {
         //有参无返回值
         Test03 test03 = (a, b) -> System.out.println(a + b);
         test03.test03("你好吗", "我是谁");
-
+        //有参有返回值
         Test04 test04 = (a, b) -> a == b;
         System.out.println(test04.test04(2, 6));
     }
